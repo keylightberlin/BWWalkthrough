@@ -5,7 +5,7 @@ let package = Package(
     name: "BWWalkthrough",
     platforms: [.iOS(.v10)],
     products: [
-        .library(name: "BWWalkthrough", targets: ["BWWalkthrough"])
+        .library(name: "BWWalkthrough", type: .dynamic, targets: ["BWWalkthrough"])
     ],
     targets: [
         .target(
